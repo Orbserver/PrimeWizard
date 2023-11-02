@@ -13,7 +13,7 @@ Asegúrate de tener un compilador de C++ instalado para compilar y ejecutar el p
 Para compilar el programa, sigue estos pasos:
 
 ```bash
-g++ PrimeWizard.cpp -o PrimeWizard
+g++ primewizard.cpp -o PrimeWizard
 ```
 
 ### Ejecución
@@ -21,7 +21,7 @@ g++ PrimeWizard.cpp -o PrimeWizard
 Después de compilar, puedes ejecutar el programa e ingresar un número impar para verificar su primalidad:
 
 ```bash
-./PrimeWizard
+./primewizard
 ```
 
 El programa te guiará a través del proceso.
