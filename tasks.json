@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compilar",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "primewizard",
+                "main.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "ejecutar",
+            "type": "shell",
+            "command": ".\\primeWizard.exe",
+            "group": {
+                "kind": "build",
+                "isDefault": "true"
+            },
+            "dependsOn": "compilar",
+            "problemMatcher": []
+        }
+    ]
+}
