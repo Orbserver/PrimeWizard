@@ -13,7 +13,7 @@ Make sure you have a C++ compiler installed to compile and run the program.
 To compile the program, follow these steps:
 
 ```bash
-g++ PrimeWizard.cpp -o PrimeWizard
+g++ primewizard.cpp -o PrimeWizard
 ```
 
 ### Execution
@@ -21,7 +21,7 @@ g++ PrimeWizard.cpp -o PrimeWizard
 After compiling, you can run the program and enter an odd number to check its primality:
 
 ```bash
-./PrimeWizard
+./primeWizard
 ```
 
 The program will guide you through the process.
