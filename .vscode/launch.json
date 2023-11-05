@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/home/fliki/Documentos/PrimeWizard/PrimeWizard",
-      "program": "/home/fliki/Documentos/PrimeWizard/PrimeWizard/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "e:/Almacenamiento/Tiber/Documents/Proyectos/PrimeWizard",
+      "program": "e:/Almacenamiento/Tiber/Documents/Proyectos/PrimeWizard/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
