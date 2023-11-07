@@ -1,44 +1,33 @@
-# PrimeWizard
+# PrimeWizard for Linux
 
-**PrimeWizard** is a simple command-line tool developed in C++ to check if an odd number is prime.
+PrimeWizard is a C++ program designed for Linux systems that allows you to determine whether a given odd number is prime or not. It provides a simple command-line interface to input a number and receive a verdict. Additionally, it displays a progress bar while performing the primality test.
 
 ## Usage
 
-### Requirements
+To use PrimeWizard on Linux, follow these steps:
 
-Make sure you have a C++ compiler installed to compile and run the program.
+1. Download the appropriate executable file for Linux systems. Make sure you are in the `linuxVersion` branch of this repository to get the correct executable.
 
-### Compilation
+2. Open a terminal in the directory where the PrimeWizard executable file is located.
 
-To compile the program, follow these steps:
-
+3. Run the program with the following command:
 ```bash
-g++ primewizard.cpp -o PrimeWizard
+.\primewizard
 ```
+4. Enter an odd number and press Enter to start the primality test.
 
-### Execution
+5. Observe the progress bar indicating the progress of the primality test.
 
-After compiling, you can run the program and enter an odd number to check its primality:
+6. Receive a verdict on whether the entered number is prime or not.
 
-```bash
-./primeWizard
-```
+## Requirements
 
-The program will guide you through the process.
+PrimeWizard for Linux requires a Linux distribution and a terminal for execution. You do not need to compile the program as we provide a pre-built executable file in the `linuxVersion` branch.
 
-## Contributions
+## Author
 
-Contributions are welcome! If you'd like to contribute to PrimeWizard, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your contribution.
-3. Make your changes and ensure everything works correctly.
-4. Submit a pull request to the main branch.
+- Orbserver
 
 ## License
 
-This project is under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-For any questions or comments, please contact me.
+This project is licensed under the MIT. Please refer to the [LICENSE](https://github.com/Orbserver/PrimeWizard/blob/main/LICENSE) file for more details.
