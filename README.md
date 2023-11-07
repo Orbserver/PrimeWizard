@@ -44,4 +44,4 @@ Feel free to explore each branch for system-specific information and guidance.
 
 ## License
 
-This project is licensed under the MIT licence - You are free to use, modify, and distribute this software, but it comes with no warranty or support. Please refer to the [https://github.com/Orbserver/PrimeWizard/blob/main/LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT licence - You are free to use, modify, and distribute this software, but it comes with no warranty or support. Please refer to the [LICENSE](https://github.com/Orbserver/PrimeWizard/blob/main/LICENSE) file for more details.
