@@ -1,43 +1,35 @@
-# PrimeWizard
+# PrimeWizard para Linux
 
-PrimeWizard es una sencilla herramienta de línea de comandos desarrollada en C++ que verifica si un número impar es primo.
+PrimeWizard es un programa en C++ diseñado para sistemas Linux que te permite determinar si un número impar dado es primo o no. Proporciona una interfaz de línea de comandos simple para ingresar un número y recibir un veredicto. Además, muestra una barra de progreso mientras realiza la prueba de primalidad.
 
 ## Uso
 
-### Requisitos
+Para utilizar PrimeWizard en Linux, sigue estos pasos:
 
-Asegúrate de tener un compilador de C++ instalado para compilar y ejecutar el programa.
+1. Descarga el archivo ejecutable adecuado para sistemas Linux. Asegúrate de estar en la rama `linuxVersion` de este repositorio para obtener el ejecutable correcto.
 
-### Compilación
+2. Abre una terminal en el directorio donde se encuentra el archivo ejecutable de PrimeWizard.
 
-Para compilar el programa, sigue estos pasos:
-
-```bash
-g++ primewizard.cpp -o PrimeWizard
-```
-
-### Ejecución
-
-Después de compilar, puedes ejecutar el programa e ingresar un número impar para verificar su primalidad:
+3. Ejecuta el programa con el siguiente comando:
 
 ```bash
-./primewizard
+.\primewizard
 ```
 
-El programa te guiará a través del proceso.
+4. Ingresa un número impar y presiona Enter para iniciar la prueba de primalidad.
 
-## Contribuciones
+5. Observa la barra de progreso que indica el avance de la prueba de primalidad.
 
-¡Las contribuciones son bienvenidas! Si deseas contribuir a PrimeWizard, sigue estos pasos:
+6. Recibe un veredicto sobre si el número ingresado es primo o no.
 
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tu contribución.
-3. Realiza tus cambios y asegúrate de que todo funcione correctamente.
-4. Envía una solicitud de extracción a la rama principal.
+## Requisitos
+
+PrimeWizard para Linux requiere una distribución de Linux y una terminal para su ejecución. No es necesario compilar el programa, ya que se proporciona un archivo ejecutable listo para usar en la rama `linuxVersion`.
+
+## Autor
+
+- Orbserver
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
-
-## Contacto
-Para cualquier pregunta o comentario, contáctanos en correo@ejemplo.com.
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](https://github.com/Orbserver/PrimeWizard/blob/main/LICENSE) para obtener más detalles.
