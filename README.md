@@ -1,44 +1,47 @@
 # PrimeWizard
 
-**PrimeWizard** is a simple command-line tool developed in C++ to check if an odd number is prime.
+PrimeWizard is a C++ program that allows you to determine whether a given odd number is prime or not. It provides a simple command-line interface to input a number and receive a verdict.
+
+## Program Features
+
+- Checks if an input odd number is prime.
+- Provides a progress bar while performing the primality test.
+- Supports two different branches for specific operating systems: `windowsVersion` and `linuxVersion`.
 
 ## Usage
 
-### Requirements
+To use PrimeWizard, follow these steps:
 
-Make sure you have a C++ compiler installed to compile and run the program.
+1. Build the program for your specific operating system (Windows or Linux).
+2. Run the executable.
+3. Enter an odd number to determine its primality.
+4. Observe the progress bar indicating the progress of the primality test.
+5. Receive a verdict regarding the input number's primality.
 
-### Compilation
+## Branches
 
-To compile the program, follow these steps:
+PrimeWizard is available in two branches:
 
-```bash
-g++ primewizard.cpp -o PrimeWizard
-```
+- `windowsVersion`: A branch for Windows users with instructions and specific details related to running the program on Windows.
 
-### Execution
+- `linuxVersion`: A branch for Linux users with instructions and specific details related to running the program on Linux.
 
-After compiling, you can run the program and enter an odd number to check its primality:
+For more detailed information, please refer to the respective README files in each branch.
 
-```bash
-./primeWizard
-```
+## Windows Version
 
-The program will guide you through the process.
+If you are a Windows user, please check the `windowsVersion` branch for specific details and instructions on using PrimeWizard on your Windows system.
 
-## Contributions
+## Linux Version
 
-Contributions are welcome! If you'd like to contribute to PrimeWizard, follow these steps:
+If you are a Linux user, please check the `linuxVersion` branch for specific details and instructions on using PrimeWizard on your Linux system.
 
-1. Fork the repository.
-2. Create a new branch for your contribution.
-3. Make your changes and ensure everything works correctly.
-4. Submit a pull request to the main branch.
+Feel free to explore each branch for system-specific information and guidance.
+
+## Author
+
+- Orbserver
 
 ## License
 
-This project is under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-For any questions or comments, please contact me.
+This project is licensed under the MIT licence - You are free to use, modify, and distribute this software, but it comes with no warranty or support. Please refer to the LICENSE file for more details.
